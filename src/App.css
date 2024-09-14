@@ -12,63 +12,9 @@
   border-right: 1px solid #ddd;
 }
 
-.sidebar h2 {
-  margin-bottom: 10px;
-}
-
-.sidebar ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.sidebar li {
-  margin-bottom: 10px;
-}
-
-.ItemCard {
-  margin-bottom: 20px;
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.ItemCard h2 {
-  margin-bottom: 5px;
-}
-
-.ItemList {
-  margin-top: 20px;
-}
-
-.ItemList ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.ItemList li {
-  margin-bottom: 20px;
-}
-
 .SongTracker {
   width: 80%;
   padding: 20px;
-}
-
-.SongTracker h1 {
-  margin-bottom: 20px;
-}
-
-.SongTracker ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.SongTracker li {
-  margin-bottom: 20px;
 }
 
 .SongTracker button {
@@ -84,19 +30,19 @@
   background-color: #3e8e41;
 }
 
-.SongTracker form {
-  margin-top: 20px;
+.create-new-song-btn {
+  background-color:whitesmoke; /* green background */
+  color: rgb(158, 65, 65); /* white text */
+  border: black; /* no border */
+  padding: 10px 10px; /* padding */
+  font-size: 20px; /* font size */
+  cursor: pointer; /* pointer cursor */
+  border-radius: 200px; /* rounded corners */
+  box-shadow: 0 0 10px rgba(234, 155, 72, 0.2); /* box shadow */
 }
 
-.SongTracker input[type="text"] {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.SongTracker input[type="text"]:focus {
-  border-color: #aaa;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+.create-new-song-btn:hover {
+  background-color: #cc752e; /* darker green background on hover */
+  transform: scale(1.05); /* scale up on hover */
+  transition: all 0.3s ease-in-out; /* smooth transition */
 }
