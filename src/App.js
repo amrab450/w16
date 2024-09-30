@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
-import Sidebar from './components/Sidebar';
+import Sidebar from './components/SideBar';
+
 
 const initialState = [
   { id: 1, title: 'Song 1', artist: 'adams', starred: false },
